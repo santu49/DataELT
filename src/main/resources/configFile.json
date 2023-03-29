@@ -1,0 +1,19 @@
+[
+
+    {
+        "type": "source",
+        "connectionType": "fileSystem",
+        "filePath": "D:\\resources2\\csv_files\\acc_16.csv",
+        "fileType": "csv"
+
+    },
+    {
+        "type": "target",
+        "connectionType": "AwsPostgreSQL",
+        "userName": "postgres",
+        "password": "ShubhamParate",
+        "dataBaseName": "demo2",
+        "schemaName": "data",
+        "tableName": "emp"
+    }
+]
